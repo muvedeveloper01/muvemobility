@@ -91,7 +91,7 @@ export function HeroSection() {
             {[
               { value: "200+", label: "Projects Delivered" },
               { value: "50+", label: "Happy Clients" },
-              { value: "8+", label: "Years Experience" },
+              { value: "2+", label: "Years Experience" },
               { value: "99%", label: "Client Satisfaction" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
