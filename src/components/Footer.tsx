@@ -41,7 +41,7 @@ const socialLinks = [
     icon: Twitter, 
     href: "#", 
     label: "Twitter" 
-  }, // ❌ Twitter link not provided yet
+  },
   { 
     icon: Linkedin, 
     href: "https://www.linkedin.com/company/muvelk/", 
@@ -56,7 +56,7 @@ const socialLinks = [
     icon: Youtube, 
     href: "#", 
     label: "YouTube" 
-  }, // ❌ YouTube link not provided yet
+  }, 
 ];
 
 
