@@ -33,14 +33,16 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const formRef = useRef<HTMLFormElement | null>(null);
 
+  
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     emailjs
       .sendForm(
-        " ",
-        "template_etyp7yr",
+        "service_ng5wzsa",
+        "template_4o0j2id",
         formRef.current!,
         "cyKUV8hn-nunJeR2g"
       )
